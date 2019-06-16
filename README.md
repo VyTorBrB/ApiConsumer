@@ -1,7 +1,7 @@
 # ApiConsumer
 Luis.ai api consumer example
 <h1>Usage: </h1>
-<hr/>
+
 <ul>
   <li>Clone the repo</li>
   <li>In the dir run `sudo npm i`</li>
