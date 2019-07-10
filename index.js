@@ -2,7 +2,7 @@ const app = require('express')()
     , http = require('http').createServer(app)
     , io = require('socket.io')(http)
     , port = 3001
-    , endPoint = 'https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/9ab77582-700d-4ab2-9de6-eb289166cd8f?verbose=true&timezoneOffset=-360&subscription-key=35f119b87c414a50890ab1fc49b20cf3&q='
+    , endPoint = '<LUIS_API_KEY>'
     , Axios = require('axios')
 
 app.get('/', (req, res) => {
